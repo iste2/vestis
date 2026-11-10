@@ -20,6 +20,10 @@ _Avoid_: Bought, purchased, desired
 The wished pieces of a wardrobe.
 _Avoid_: Shopping list, favourites
 
+**Starter pieces**:
+The pieces every new wardrobe begins with: a white undershirt, white underpants and white socks. Apart from that they are ordinary owned pieces.
+_Avoid_: Default pieces, basics
+
 **Outfit**:
 A set of pieces worn together at the same time. An outfit is identified by its pieces alone: the same pieces are the same outfit, whether generated, saved or worn.
 _Avoid_: Look, combo, candidate, path
@@ -29,7 +33,7 @@ A region of the body a piece is worn on: head, neck, torso, hands, waist, legs o
 _Avoid_: Slot, area, body part
 
 **Layer**:
-The position of a piece within a body zone, counted from the body outward (for the torso: base, main, mid, two outer layers).
+The position of a piece within a body zone, counted from the body outward. The torso has base (such as an undershirt), main, mid and two outer layers; legs and feet have base (underpants, socks) and main.
 _Avoid_: Level, tier
 
 **Exclusion**:
@@ -37,8 +41,12 @@ A user's statement that two particular pieces never go together.
 _Avoid_: Blacklist, incompatibility, forbidden pair
 
 **Valid outfit**:
-An outfit with at most one piece per body zone and layer, no exclusion between its pieces, and a main torso piece, a main legs piece (or a one-piece covering both) and shoes. Only valid outfits are generated; a user may still save and wear any outfit.
+An outfit with at most one piece per body zone and layer and no exclusion between its pieces. Only valid outfits are generated, and each must also meet its brief; a user may still save and wear any outfit.
 _Avoid_: Wearable outfit, complete outfit, legal outfit
+
+**Brief**:
+The requirements and preferences a search for outfits must meet, such as required body zones, the weather, the occasion, which pieces may be used and how different the results must be. By default a brief requires a main torso piece, a main legs piece (or a one-piece covering both) and shoes.
+_Avoid_: Query, request, constraint set
 
 **Suitability**:
 How well a single piece suits the circumstances at hand, such as the weather or the occasion.
