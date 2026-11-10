@@ -24,6 +24,30 @@ _Avoid_: Shopping list, favourites
 A set of pieces worn together at the same time. An outfit is identified by its pieces alone: the same pieces are the same outfit, whether generated, saved or worn.
 _Avoid_: Look, combo, candidate, path
 
+**Body zone**:
+A region of the body a piece is worn on: head, neck, torso, hands, waist, legs or feet, plus "carried" for bags. A one-piece such as a dress covers several body zones.
+_Avoid_: Slot, area, body part
+
+**Layer**:
+The position of a piece within a body zone, counted from the body outward (for the torso: base, main, mid, two outer layers).
+_Avoid_: Level, tier
+
+**Exclusion**:
+A user's statement that two particular pieces never go together.
+_Avoid_: Blacklist, incompatibility, forbidden pair
+
+**Valid outfit**:
+An outfit with at most one piece per body zone and layer, no exclusion between its pieces, and a main torso piece, a main legs piece (or a one-piece covering both) and shoes. Only valid outfits are generated; a user may still save and wear any outfit.
+_Avoid_: Wearable outfit, complete outfit, legal outfit
+
+**Suitability**:
+How well a single piece suits the circumstances at hand, such as the weather or the occasion.
+_Avoid_: Fit (that means how a piece sits on the body), context score
+
+**Compatibility**:
+How well two pieces go together, independent of any circumstances.
+_Avoid_: Match, harmony, edge weight
+
 **Wear**:
 A record that a user wore an outfit on a given day. A user's wears together form their **wear history**.
 _Avoid_: Log entry, usage, worn event
