@@ -46,7 +46,7 @@ _Avoid_: Fit (that means how a piece sits on the body), context score
 
 **Compatibility**:
 How well two pieces go together, independent of any circumstances.
-_Avoid_: Match, harmony, edge weight
+_Avoid_: Match, harmony, edge weight, outfit graph
 
 **Wear**:
 A record that a user wore an outfit on a given day. A user's wears together form their **wear history**.
