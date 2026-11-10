@@ -21,8 +21,8 @@ The wished pieces of a wardrobe.
 _Avoid_: Shopping list, favourites
 
 **Outfit**:
-A combination of pieces worn together at the same time.
-_Avoid_: Look, combo, set
+A set of pieces worn together at the same time. An outfit is identified by its pieces alone: the same pieces are the same outfit, whether generated, saved or worn.
+_Avoid_: Look, combo, candidate, path
 
 **Wear**:
 A record that a user wore an outfit on a given day. A user's wears together form their **wear history**.
