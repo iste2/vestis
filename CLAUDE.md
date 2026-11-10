@@ -1,13 +1,17 @@
+## Language
+
+All repository artifacts (code, comments, docs, ADRs, issues, PRs, commit messages) are written in **English**. The app UI is bilingual (German / English, user-selectable).
+
 ## Agent skills
 
 ### Issue tracker
 
-Issues leben in GitHub Issues (`iste2/vestis`, `gh` CLI). See `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues (`iste2/vestis`, `gh` CLI). See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
-Standard-Vokabular: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+Standard vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
 
 ### Domain docs
 
-Single-context: ein `CONTEXT.md` + `docs/adr/` im Repo-Root. See `docs/agents/domain.md`.
+Single-context: one `GLOSSARY.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
