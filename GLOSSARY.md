@@ -4,17 +4,29 @@ Vestis is a digital wardrobe: it catalogues what a person owns and wants, and he
 
 ## Language
 
+**Piece**:
+Anything wearable catalogued in a wardrobe: clothing, shoes or accessories.
+_Avoid_: Garment, item, article, clothing
+
 **Wardrobe**:
-The complete collection of pieces a user has catalogued, owned and wished-for alike.
+The complete collection of pieces a user has catalogued, owned and wished alike.
 _Avoid_: Closet, inventory
 
+**Owned** / **Wished**:
+The ownership status of a piece. Buying a wished piece changes its status to owned; it stays the same piece.
+_Avoid_: Bought, purchased, desired
+
 **Wishlist**:
-The part of the wardrobe holding pieces the user wants but does not own yet.
+The wished pieces of a wardrobe.
 _Avoid_: Shopping list, favourites
 
 **Outfit**:
 A combination of pieces worn together at the same time.
 _Avoid_: Look, combo, set
+
+**Wear**:
+A record that a user wore an outfit on a given day. A user's wears together form their **wear history**.
+_Avoid_: Log entry, usage, worn event
 
 **Capsule wardrobe**:
 A deliberately small selection of pieces chosen so that they combine into many valid outfits.
