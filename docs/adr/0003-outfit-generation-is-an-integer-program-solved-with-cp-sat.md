@@ -8,7 +8,7 @@ Finding the best outfits for a brief is posed as an integer program over the pie
 - The best K outfits come from re-solving with earlier solutions cut off; a "differs in at least d pieces" cut, with d from the brief, gives variety.
 - Results are deterministic for the same wardrobe, brief and cached scores: fixed solver parameters and a tie-breaker by piece ID.
 - Whole-outfit judgments by a decision model are not linear, so they only re-rank the K results afterwards. Counting valid outfits (for capsule wardrobes) is a separate operation, also driven by a brief.
-- CP-SAT brings Python into the backend; where it runs is decided separately.
+- CP-SAT brings Python into the backend. The backend stays serverless on Firebase / Google Cloud; whether all of it moves to Python is checked in #24.
 
 ## Considered options
 

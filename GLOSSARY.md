@@ -33,7 +33,7 @@ A region of the body a piece is worn on: head, neck, torso, hands, waist, legs o
 _Avoid_: Slot, area, body part
 
 **Layer**:
-The position of a piece within a body zone, counted from the body outward. The torso has base (such as an undershirt), main, mid and two outer layers; legs and feet have base (underpants, socks) and main.
+The position of a piece within a body zone, counted from the body outward. The torso has base (such as an undershirt), main, mid and two outer layers; the legs have base (underpants), hosiery (tights, leggings, long johns) and main; the feet have base (socks) and main.
 _Avoid_: Level, tier
 
 **Exclusion**:
@@ -45,7 +45,7 @@ An outfit with at most one piece per body zone and layer and no exclusion betwee
 _Avoid_: Wearable outfit, complete outfit, legal outfit
 
 **Brief**:
-The requirements and preferences a search for outfits must meet, such as required body zones, the weather, the occasion, which pieces may be used and how different the results must be. By default a brief requires a main torso piece, a main legs piece (or a one-piece covering both) and shoes.
+The requirements and preferences a search for outfits must meet, such as required body zones, the weather, the occasion, the wearer (for example rules that depend on gender), which pieces may be used and how different the results must be. By default a brief requires a main torso piece, a main legs piece (or a one-piece covering both) and shoes.
 _Avoid_: Query, request, constraint set
 
 **Suitability**:
